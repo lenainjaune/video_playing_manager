@@ -83,10 +83,9 @@ while true ; do
   "run a specific vlc title (behind #)" \
    "bash -c \"vlc --fullscreen dvdsimple://$VIDEO#20\"" \
   \
-  "run from a position to another and quit" \
-    "bash -c \"vlc --fullscreen dvdsimple://$VIDEO#20 \
-    --start-time=$( hms2s "00:10" ) --stop-time=$( hms2s "08:45" ) \
-    vlc://quit\"" \
+  "run from a position to another and exit" \
+    "bash -c \"vlc --fullscreen --play-and-exit dvdsimple://$VIDEO#20 \
+    --start-time=$( hms2s "00:10" ) --stop-time=$( hms2s "08:45" )\"" \
   \
   "----------------------------- Web ----------------------------" "-" \
   \
