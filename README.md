@@ -1,7 +1,7 @@
 # video_playing_manager
 Gérer la lecture de vidéos (fichiers aux formats vidéo, CD/DVD physique, images au format ISO, etc.)
 
-Ce script permet de créer des actionneurs vidéo (ici principalement 
+Ce script (SOUS Ubuntu) permet de créer des actionneurs vidéo (ici principalement 
 avec l'application [vlc](http://doc.ubuntu-fr.org/vlc)), 
 des liens Internet, etc. tout ce qui nous 
 passe par la tête. Depuis une fenêtre graphique [zenity](http://doc.ubuntu-fr.org/zenity) 
